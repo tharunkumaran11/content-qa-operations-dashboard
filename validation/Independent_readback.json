@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "simulated": true,
+  "comparison_count": 8072,
+  "source_tasks": 352,
+  "worklog_rows": 56,
+  "period_completed": 310,
+  "daily_queue_checks": [
+    {
+      "date": "2026-11-02",
+      "opening": 11,
+      "received": 24,
+      "completed": 24,
+      "closing": 11,
+      "hours": 15.25,
+      "overdue": 3
+    },
+    {
+      "date": "2026-11-03",
+      "opening": 11,
+      "received": 24,
+      "completed": 24,
+      "closing": 11,
+      "hours": 15.0,
+      "overdue": 6
+    },
+    {
+      "date": "2026-11-04",
+      "opening": 11,
+      "received": 24,
+      "completed": 22,
+      "closing": 13,
+      "hours": 15.75,
+      "overdue": 7
+    },
+    {
+      "date": "2026-11-05",
+      "opening": 13,
+      "received": 24,
+      "completed": 23,
+      "closing": 14,
+      "hours": 15.5,
+      "overdue": 10
+    },
+    {
+      "date": "2026-11-06",
+      "opening": 14,
+      "received": 24,
+      "completed": 22,
+      "closing": 16,
+      "hours": 15.0,
+      "overdue": 13
+    },
+    {
+      "date": "2026-11-07",
+      "opening": 16,
+      "received": 24,
+      "completed": 17,
+      "closing": 23,
+      "hours": 16.0,
+      "overdue": 16
+    },
+    {
+      "date": "2026-11-08",
+      "opening": 23,
+      "received": 24,
+      "completed": 26,
+      "closing": 21,
+      "hours": 14.5,
+      "overdue": 12
+    },
+    {
+      "date": "2026-11-09",
+      "opening": 21,
+      "received": 24,
+      "completed": 23,
+      "closing": 22,
+      "hours": 15.5,
+      "overdue": 14
+    },
+    {
+      "date": "2026-11-10",
+      "opening": 22,
+      "received": 24,
+      "completed": 25,
+      "closing": 21,
+      "hours": 15.0,
+      "overdue": 16
+    },
+    {
+      "date": "2026-11-11",
+      "opening": 21,
+      "received": 24,
+      "completed": 18,
+      "closing": 27,
+      "hours": 15.25,
+      "overdue": 18
+    },
+    {
+      "date": "2026-11-12",
+      "opening": 27,
+      "received": 24,
+      "completed": 22,
+      "closing": 29,
+      "hours": 16.0,
+      "overdue": 19
+    },
+    {
+      "date": "2026-11-13",
+      "opening": 29,
+      "received": 24,
+      "completed": 23,
+      "closing": 30,
+      "hours": 15.75,
+      "overdue": 21
+    },
+    {
+      "date": "2026-11-14",
+      "opening": 30,
+      "received": 24,
+      "completed": 25,
+      "closing": 29,
+      "hours": 16.5,
+      "overdue": 22
+    },
+    {
+      "date": "2026-11-15",
+      "opening": 29,
+      "received": 24,
+      "completed": 16,
+      "closing": 37,
+      "hours": 16.0,
+      "overdue": 24
+    }
+  ],
+  "chart_count": 6,
+  "chart_checks": [
+    {
+      "file": "xl/drawings/charts/chart1.xml",
+      "series": 1,
+      "range_references": [
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$D$5:$D$18"
+      ],
+      "line_strokes": 3
+    },
+    {
+      "file": "xl/drawings/charts/chart2.xml",
+      "series": 1,
+      "range_references": [
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$G$5:$G$18"
+      ],
+      "line_strokes": 4
+    },
+    {
+      "file": "xl/drawings/charts/chart3.xml",
+      "series": 2,
+      "range_references": [
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$N$5:$N$18",
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$K$5:$K$18"
+      ],
+      "line_strokes": 5
+    },
+    {
+      "file": "xl/drawings/charts/chart4.xml",
+      "series": 2,
+      "range_references": [
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$E$5:$E$18",
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$P$5:$P$18"
+      ],
+      "line_strokes": 5
+    },
+    {
+      "file": "xl/drawings/charts/chart5.xml",
+      "series": 1,
+      "range_references": [
+        "'Daily'!$Q$5:$Q$18",
+        "'Daily'!$O$5:$O$18"
+      ],
+      "line_strokes": 4
+    },
+    {
+      "file": "xl/drawings/charts/chart6.xml",
+      "series": 1,
+      "range_references": [
+        "'Daily'!$A$39:$A$43",
+        "'Daily'!$B$39:$B$43"
+      ],
+      "line_strokes": 3
+    }
+  ],
+  "limitations": [
+    "Native desktop Excel runtime was not available.",
+    "No actual media or Amazon operational measurements were used."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metrics": {
+    "completed": 310,
+    "hours": 217,
+    "titles_per_hour": 1.4285714285714286,
+    "affected_title_rate": 0.18064516129032257,
+    "clean_title_rate": 0.8193548387096774,
+    "defects_per_check": 0.027822580645161292,
+    "sla_adherence": 0.6870967741935484,
+    "avg_turnaround_hours": 14.759354838714447,
+    "backlog": 37,
+    "overdue_backlog": 24
+  },
+  "tests": [
+    "Increasing logged hours by 1 changes overall TPH to completed/(hours+1).",
+    "Completion exactly at deadline passes SLA; one minute after fails.",
+    "A day with zero logged hours displays n.a. for TPH.",
+    "Future completions and missing completed-title defect counts are flagged REVIEW; zero defects is valid.",
+    "Completing one open task adds one completion and removes one backlog title.",
+    "Adding a task in the next reserved row updates completed volume without editing summary ranges.",
+    "Duplicate task IDs flag both affected rows.",
+    "Open title exactly at its deadline is not overdue; one minute later is overdue.",
+    "Two defects on one previously clean title add one affected title, not two.",
+    "Duplicate date/reviewer work logs are flagged on both rows."
+  ],
+  "chart_count": 6,
+  "chart_bindings": [
+    {
+      "title": "Titles completed per day",
+      "series": [
+        {
+          "formula": "'Daily'!$D$5:$D$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        }
+      ]
+    },
+    {
+      "title": "Productivity in titles per hour",
+      "series": [
+        {
+          "formula": "'Daily'!$G$5:$G$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        }
+      ]
+    },
+    {
+      "title": "SLA adherence and affected-title rate",
+      "series": [
+        {
+          "formula": "'Daily'!$N$5:$N$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        },
+        {
+          "formula": "'Daily'!$K$5:$K$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        }
+      ]
+    },
+    {
+      "title": "Closing and overdue backlog",
+      "series": [
+        {
+          "formula": "'Daily'!$E$5:$E$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        },
+        {
+          "formula": "'Daily'!$P$5:$P$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        }
+      ]
+    },
+    {
+      "title": "Average turnaround in calendar hours",
+      "series": [
+        {
+          "formula": "'Daily'!$O$5:$O$18",
+          "categories": "'Daily'!$Q$5:$Q$18"
+        }
+      ]
+    },
+    {
+      "title": "Affected titles by primary defect",
+      "series": [
+        {
+          "formula": "'Daily'!$B$39:$B$43",
+          "categories": "'Daily'!$A$39:$A$43"
+        }
+      ]
+    }
+  ]
+}

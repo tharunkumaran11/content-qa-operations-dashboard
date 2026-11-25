@@ -1,0 +1,17 @@
+{
+  "simulated": true,
+  "seed": 10598698,
+  "period_start_IST": "2026-11-02T00:00:00",
+  "snapshot_IST": "2026-11-15T18:00:00",
+  "timezone": "Asia/Calcutta; timezone-naive Excel values represent IST",
+  "fictional_reviewers": 4,
+  "rows": 352,
+  "work_log_rows": 56,
+  "basis": "All tasks, teams, timestamps, hours and defects are synthetically generated. Not Amazon records or measured performance.",
+  "sla_hours": {
+    "Highlights": 8,
+    "Detail page": 24,
+    "Replay": 48
+  },
+  "no_real_content_tested": true
+}

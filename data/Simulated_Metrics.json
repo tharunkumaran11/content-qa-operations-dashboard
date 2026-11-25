@@ -1,0 +1,21 @@
+{
+  "simulated": true,
+  "tasks": 352,
+  "opening_backlog": 11,
+  "arrivals": 336,
+  "completed": 310,
+  "hours": 217,
+  "titles_per_hour": 1.4285714285714286,
+  "affected_titles": 56,
+  "affected_title_rate": 0.18064516129032257,
+  "clean_title_rate": 0.8193548387096774,
+  "defects": 69,
+  "defects_per_check": 0.027822580645161292,
+  "sla_met": 213,
+  "sla_adherence": 0.6870967741935484,
+  "avg_turnaround_hours": 14.759354838709676,
+  "backlog": 37,
+  "overdue_backlog": 24,
+  "major": 15,
+  "critical": 3
+}
